@@ -1,0 +1,47 @@
+
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    
+}
+.container>.social-icon{
+    position: absolute;
+    top: 50px;
+    margin-left: 50px;
+   
+}
+
+.container>.social-icon>i{
+    color: white;
+    width: 25px;
+    cursor: pointer;
+}
+
+.container>.nos-politiques{
+    position: absolute;
+    top: 100px;
+    
+}
+
+.container>.nos-politiques>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.container>.nos-politiques>ul>li>a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.container>.nos-politiques>ul>li>a:hover{
+    color: rgb(255, 217, 0);
+}
